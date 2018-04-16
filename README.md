@@ -9,6 +9,9 @@ npm install
 # serve with hot reload at localhost:9091
 npm run dev
 
+# for serving the index.html you can use the following command if you are on a mac
+python -mSimpleHTTPServer 7998
+
 # build for production with minification
 npm run build
 
@@ -19,7 +22,7 @@ npm run build --report
 npm run unit
 
 # run all tests
-npm test
+npm run test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
